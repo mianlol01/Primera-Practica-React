@@ -1,0 +1,40 @@
+.contenedor-personaje {
+  background-color: gray;
+  border-radius: 60px;
+
+  box-shadow: 0 5px 15px 2px black;
+  margin: 5px;
+  overflow: hidden;
+}
+.imagen-personaje {
+
+  height: 100%;
+  max-height: 400px;
+  width: auto;
+  display: flex;
+}
+.linea-vertical {
+  background-color: rgb(29, 29, 29);
+  width: 8px;
+}
+.contenedor-texto-personaje {
+  max-width: 400px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: block;
+  margin-left: 10px;
+}
+.contenedor-personaje {
+  display: flex;
+}
+.nombre-personaje {
+  margin-top: 20px;
+}
+.categoria-personaje {
+  margin-top: 10px;
+}
+.desc-personaje {
+  margin-top: 10px;
+  text-align: left;
+}
