@@ -1,3 +1,6 @@
+![image](https://github.com/mianlol01/Primera-Practica-React/assets/144628881/cc5c68eb-e4e0-483a-b0e2-d7ab600b7e7e)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
