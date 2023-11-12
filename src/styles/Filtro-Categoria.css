@@ -1,0 +1,35 @@
+.filtro {
+  background-color: rgb(66, 65, 65);
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+.label {
+  font-size: 25px;
+  margin: 2px;
+}
+.filtro select {
+  color: white;
+  width: 200px; /* Ancho del elemento select */
+  padding: 8px; /* Relleno interno */
+  font-size: 20px; /* Tamaño de la fuente */
+  text-align: center;
+  background-color: rgb(66, 65, 65);
+  border: none;
+  /*background-image: url("../imagenes/hornet.webp"); /* Ruta a la imagen del ícono */
+  background-repeat: no-repeat;
+  background-position: center right; /* Posición del ícono */
+}
+.filtro option {
+
+  padding: 8px; /* Relleno interno de las opciones */
+  font-size: 18px; /* Tamaño de la fuente de las opciones */
+}
+
+.filtro select:focus {
+ 
+}
+
+.filtro select option:hover {
+  background-color: aqua;
+  background-image: url(../imagenes/hornet.webp);
+}

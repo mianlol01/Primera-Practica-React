@@ -3,16 +3,21 @@ import "../styles/Personaje.css";
 function Personaje(props) {
   return (
     <div className="contenedor-personaje">
-      <img
-        className="imagen-personaje"
-        src={require(`../imagenes/${props.imagen}.webp`)}
-        alt={`${props.alt}`}
-      />
-      <div class="linea-vertical"></div>
+      <div className="contenedor-imagen">
+        <img
+          className="imagen-personaje"
+          src={require(`../imagenes/${props.personaje.imagen}.webp`)}
+          alt={`${props.personaje.alt}`}
+        />
+        <div className="borde-contorno"></div>
+      </div>
+      <div className="linea-vertical"></div>
       <div className="contenedor-texto-personaje">
-        <p className="nombre-personaje"><strong>{props.nombre}</strong></p>
-        <p className="categoria-personaje">{props.categoria}</p>
-        <p className="desc-personaje">{props.desc}</p>
+        <p className="nombre-personaje">
+          <strong>{props.personaje.nombre}</strong>
+        </p>
+        <p className="categoria-personaje">{props.personaje.categoria}</p>
+        <p className="desc-personaje">{props.personaje.desc}</p>
       </div>
     </div>
   );

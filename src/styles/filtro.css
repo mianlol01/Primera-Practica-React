@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+.contenedor-filtro {
+    position: fixed;
+    z-index: 2000;
+    width: 150px;
+    height: 180px;
+   border-radius: 50px;
+    border: solid 3px gray;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    margin-left: 50px;
+}
+.contenedor-filtro img {
+    width: 150px;
+    height: 150px;
+}
+.categoria-filtro {
+    text-align: center;
+   
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
+.contenedor-filtro:hover {
+    transform: scale(1.1);
+}
